@@ -8,7 +8,7 @@ const skillRoutes = require('./routes/skillRoutes');
 dotenv.config();
 connectDB();
 
-const app = express();ch
+const app = express();
 app.use(cors());
 app.use(express.json());
 
